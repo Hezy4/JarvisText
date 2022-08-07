@@ -3,10 +3,6 @@ An AI using GPT-2 and tensorflow
 
 Okay, I had some requests to add a Jarvis with keyboard input instead of voice, so here you are!
 
-# Version 1.1 
-
-Added hotword detection (only works if 'Jarvis' is in the sentence) to ignore background noise.
-
 # This project took a year of work. Spread it around!
 # Installation
 ```
