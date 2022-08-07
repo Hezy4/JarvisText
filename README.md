@@ -1,8 +1,7 @@
-# Jarvis
+# Jarvis Text Edition
 An AI using GPT-2 and tensorflow
 
-
-This project is for TESTING
+Okay, I had some requests to add a jarvis with keyboard input instead of voice, so here you are!
 
 To start, please install python onto your computer. 
 Next, learn the basics. the point of this AI is for people to have fun learning coding, and its worth it!
