@@ -2,8 +2,8 @@
 An AI using GPT-2 and tensorflow
 
 Okay, I had some requests to add a Jarvis with keyboard input instead of voice, so here you are!
+This project took a year of work. Spread it around!
 
-# This project took a year of work. Spread it around!
 # Installation
 ```
 git clone https://github.com/hezyhax/jarvis.git
