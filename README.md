@@ -1,7 +1,7 @@
 # Jarvis Text Edition
 An AI using GPT-2 and tensorflow
 
-Okay, I had some requests to add a jarvis with keyboard input instead of voice, so here you are!
+Okay, I had some requests to add a Jarvis with keyboard input instead of voice, so here you are!
 
 # Version 1.1 
 
