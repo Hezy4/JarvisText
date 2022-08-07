@@ -3,36 +3,23 @@ An AI using GPT-2 and tensorflow
 
 Okay, I had some requests to add a jarvis with keyboard input instead of voice, so here you are!
 
-To start, please install python onto your computer. 
-Next, learn the basics. the point of this AI is for people to have fun learning coding, and its worth it!
-This takes 5 MINUTES and is so worth it. 
-https://www.youtube.com/watch?v=I2wURDqiXdM
-Next, learn PIP3. this is the last learning step, I promise. 
-A video will be linked here: https://www.youtube.com/watch?v=sIan8TOz0GA
+# Version 1.1 
 
-After that, just simply install the dependecies. 
+Added hotword detection (only works if 'Jarvis' is in the sentence) to ignore background noise.
 
-run the following command in your computers terminal
-
-git clone https://github.com/henryboes25/Jarvis/
-
-cd jarvis
-
-pip3 install -r deps.txt
-
-# after that
-
-run the second to last step
-
+# This project took a year of work. Spread it around!
+# Installation
+```
+git clone https://github.com/hezyhax/textjarvis.git
+cd textjarvis
+python3 -m pip install -r deps.txt
 python3 download_model.py 345M
-
-# FINALLY
-run 
-
+```
+# Run Jarvis
+```
 python3 main.py
-
-# THIS project took a year of work. Spread it around!
-
-For support
-
+```
+# For support
+Please look online for support first, the internet will solve most problems.
+If you're still experiencing difficulty, please kindly email:
 Hezycb@gmail.com
