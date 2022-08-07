@@ -22,9 +22,9 @@ def interact_model(
         batch_size = 1
     assert nsamples % batch_size == 0
 
-    enc = encoder.get_encoder('345M_org', models_dir)
+    enc = encoder.get_encoder('345M', models_dir)
     hparams = model.default_hparams()
-    with open(os.path.join('./models', '345M_org', 'hparams.json')) as f:
+    with open(os.path.join('./models', '345M', 'hparams.json')) as f:
         hparams.update(json.load(f))
 
     with tf.compat.v1.Session(graph=tf.Graph()) as sess:
@@ -39,7 +39,7 @@ def interact_model(
         )
 
         saver = tf.compat.v1.train.Saver()
-        ckpt = tf.train.latest_checkpoint(os.path.join('./models', '345M_org'))
+        ckpt = tf.train.latest_checkpoint(os.path.join('./models', '345M'))
         saver.restore(sess, ckpt)
 
         raw_text = '<|endofdlg|>'
