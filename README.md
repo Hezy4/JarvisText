@@ -19,6 +19,10 @@ If it is more equiped, run:
 ```
 python3 download_model.py 774M
 ```
+And Finaly, if youre computer is very well equiped, run:
+```
+python3 download_model.py 1558M
+```
 Then, you're ready to run Jarvis. 
 # Run Jarvis
 ```
