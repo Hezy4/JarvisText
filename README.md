@@ -7,7 +7,7 @@ This project took a year of work. Spread it around!
 # Installation
 ```
 git clone https://github.com/hezyhax/jarvis.git
-cd jarvis
+cd textjarvis
 python3 -m pip install -r deps.txt
 ```
 # Model Size
